@@ -3,9 +3,9 @@ import { Routes, Route, Navigate } from "react-router-dom";
 // ==========================================
 // 🛡️ 1. IMPORT ROUTE GUARDS 
 // ==========================================
-import ProtectedRoute from "./ProtectedRoute"; 
-import AdminRoute from "./Adminroute";      
-import VendorRoute from "./VendorRoute";   
+import ProtectedRoute from "./ProtectedRoute.jsx"; 
+import AdminRoute from "./AdminRoute.jsx";      
+import VendorRoute from "./VendorRoute.jsx";   
 
 
 // ==========================================
@@ -14,7 +14,7 @@ import VendorRoute from "./VendorRoute";
 import Home from "../Pages/Home/Home";
 import Profile from "../Pages/Profile/ProfilePage";
 import ProductPageTemplate from "../components/shared/ProductPageTemplate"; 
-import MyOrders from "../Pages/profile/MyOrders";
+import MyOrders from "../Pages/Profile/MyOrders";
 import SearchPage from "../Pages/SearchPage/SearchPage";
 import Checkout from "../Pages/CheckOut/Checkout";
 import ProductDetails from "../Pages/ProductDetails/ProductDetails"; // 👈 Ye page hum reuse karenge

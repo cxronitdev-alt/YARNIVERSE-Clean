@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from "./routes/AppRoutes";
-import TopBar from "./components/layouts/TopBar";
-import Navbar from "./components/layouts/Navbar";
+import TopBar from "./components/layouts/TopBar.jsx";
+import Navbar from "./components/layouts/Navbar.jsx";
 import AuthModal from "./Pages/Auth/AuthModal.jsx";
 import Footer from "./components/layouts/Footer";
 import ScrollToTop from "./components/shared/ScrollToTop";
